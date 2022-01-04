@@ -28,7 +28,7 @@ This project has API routes and those are used in Nuxt JS project which name, 'd
     <li>1. Creating a Database 'doctors_appointment_lara8' in your database server</li>
     <li>2. composer update</li>
     <li>3. 'npm install' and then 'npm run dev'</li>
-    <li>4. copy the file .env.example and rename into .env, then give information of database, server and create app key by 'php artisan key:gen' the save the file</li>
+    <li>4. copy the file .env.example and rename into .env, then give information of database, server, create app key by 'php artisan key:gen', mail information and the save the file</li>
     <li>5. php artisan migrate</li>
     <li>6. php artisan serve</li> 
     <li>7. Register and assign the role for a doctor</li> 
@@ -42,10 +42,6 @@ This project has API routes and those are used in Nuxt JS project which name, 'd
 1.0.0
 
 ### Start Date:
-
-04-Jan-2022
-
-### Last Update:
 
 04-Jan-2022
 
