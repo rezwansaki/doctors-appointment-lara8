@@ -1,4 +1,4 @@
-# Doctor’s appointment management system - Laravel 8 Project
+# Doctor’s Appointment - Laravel 8 Project
 
 A simple project for ‘Doctor’s appointment management system’ for only one doctor. This will be a personal website for a doctor. <br>
 
