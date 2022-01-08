@@ -16,6 +16,66 @@ class DoctorsAppointment extends Controller
         //
     }
 
+    // about page 
+    public function about()
+    {
+        return view('about');
+    }
+
+    // contact page 
+    public function contact()
+    {
+        return view('contact');
+    }
+
+    // doctorarea page 
+    public function doctorArea()
+    {
+        return view('doctorarea');
+    }
+
+    // assistantarea page 
+    public function assistantArea()
+    {
+        return view('assistantarea');
+    }
+
+    // appointmentfail page 
+    public function appointmentFail()
+    {
+        return view('appointmentfail');
+    }
+
+    // appointmentsuccess page 
+    public function appointmentSuccess()
+    {
+        return view('appointmentsuccess');
+    }
+
+    // makeanappointment page 
+    public function makeAnAppointment()
+    {
+        return view('makeanappointment');
+    }
+
+    // register form display 
+    public function register()
+    {
+        return view('register');
+    }
+
+    // login form display
+    public function login()
+    {
+        return view('login');
+    }
+
+    // forget password 
+    public function forgotPassword()
+    {
+        return view('forgetpassword');
+    }
+
     // Setup part: at the first time this function will be called for settings something 
     public function firstTimeSetup()
     {
@@ -24,6 +84,8 @@ class DoctorsAppointment extends Controller
             return 'You are trying to install 2nd time when user Admin already exist. If you have any problem then contact the Admin.';
         } else {
             // Roles are: 'Admin', 'Doctor', 'Assistant', 'User' //these roles are needed for this project 
+
+            // install the app
 
             // this will be delete all data from all tables 
             Artisan::call('migrate:refresh');

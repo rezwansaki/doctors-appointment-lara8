@@ -1,0 +1,419 @@
+/* Font Import Start Here */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+/* Font Import End Here */
+
+/* Globally Settings Start Here */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  color: #333;
+  font-weight: 400;
+}
+/* Globally Settings End Here */
+
+/* Navbar Section Start Here */
+section.top-area {
+  background-color: #197e7c;
+}
+.navbar-light .navbar-brand {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 2s all;
+}
+.navbar-light .navbar-brand:hover {
+  color: rgb(136, 221, 210);
+  font-size: 18px;
+  font-weight: bold;
+}
+.navbar-light .navbar-brand a {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+#navbarSupportedContent ul li a {
+  color: white;
+  font-size: 14px;
+  transition: 2s all;
+}
+#navbarSupportedContent ul li a:hover {
+  color: rgb(136, 221, 210);
+  font-size: 14px;
+}
+.btn-appointment {
+  transition: 0.5s all;
+}
+.btn-appointment:hover {
+  color: #333;
+}
+.navbar-brand img {
+  height: 28px;
+  width: 28px;
+  margin: 0 5px;
+}
+/* Navbar Section End Here */
+
+/* Slider Section Start Here */
+.slider-image img {
+  width: 100%;
+}
+.slider-content {
+  padding: 92px 0;
+}
+.slider-content h1 {
+  font-size: 45px;
+  font-weight: bold;
+  color: #333;
+}
+.slider-content p {
+  font-size: 14px;
+  color: #333;
+  padding: 12px 0;
+}
+.btn-slider {
+  transition: 0.5s all;
+}
+.btn-slider:hover {
+  background-color: #087b8f;
+  color: white;
+}
+/* Slider Section End Here */
+
+/* Get Appointment Guideline Section Start Here */
+.get-apppointment-guideline {
+  text-align: center;
+  margin: 10px 0;
+}
+.app-guide {
+  padding: 15px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s all;
+}
+.app-guide:hover {
+  padding: 15px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #aeeccf;
+  border: 1px solid #197e7c;
+}
+.get-apppointment-guideline-heading h3 {
+  font-size: 24px;
+  color: #333;
+  margin-top: 10px;
+  margin-bottom: 42px;
+}
+.app-guide span i {
+  font-size: 32px;
+  color: #197e7c;
+}
+.app-guide h3 {
+  font-size: 18px;
+  color: #333;
+  margin-top: 5px;
+}
+.app-guide p {
+  font-size: 12px;
+  text-align: center;
+  line-height: normal;
+}
+/* Get Appointment Guideline Section End Here */
+
+/* Information About This Doctor Start Here */
+.about-doctor-image img {
+  width: 100%;
+}
+section.about-doctor {
+  margin: 85px 15px;
+}
+
+.about-doctor-text h3 {
+  color: #333;
+  font-size: 28px;
+}
+.about-doctor-text p {
+  color: #333;
+  text-align: left;
+  line-height: 2;
+  font-size: 14px;
+}
+.about-doctor-text {
+  padding: 15px 15px;
+}
+.something-special h3 {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+}
+.something-special p {
+  color: #333;
+  font-size: 14px;
+  line-height: normal;
+}
+.something-special p i {
+  color: #197e7c;
+  font-size: 14px;
+  padding-right: 5px;
+}
+/* Information About This Doctor End Here */
+
+/* Online Appointment System Start Here */
+.online-appointment-text h3 {
+  color: #333;
+  font-size: 28px;
+}
+.online-appointment-text p {
+  color: #333;
+  font-size: 14px;
+}
+.online-appointment-image img {
+  width: 100%;
+}
+/* Online Appointment System End Here */
+
+/* Contact Section Start Here */
+.contact-area {
+  margin-top: 85px;
+  text-align: center;
+}
+.contact-area-main-title {
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.contact-title {
+  color: #333;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 15px 0;
+  margin-bottom: 15px;
+  background-color: #5fe9e6;
+}
+.contact-area-main-address {
+  font-size: 15px;
+  color: #333;
+  text-align: center;
+}
+.contact-area-main-phone {
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+}
+.contact-area-main-email {
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+}
+.contact-area .card {
+  padding: 15px 15px;
+  border-color: #197e7c;
+}
+.contact-area-main span i {
+  color: #055b68;
+  font-size: 12px;
+  margin-right: 5px;
+}
+/* Contact Section End Here */
+
+/* Footer Area Start Here */
+.footer-area {
+  margin-top: 45px;
+  padding: 5px;
+  background-color: #333;
+}
+.copyright-info {
+  color: white;
+  font-size: 14px;
+  text-align: left;
+}
+.designer-info {
+  color: white;
+  font-size: 12px;
+  text-align: right;
+}
+.designer-info a {
+  color: white;
+  font-size: 12px;
+  text-align: right;
+  text-decoration: none;
+}
+/* Footer Area End Here */
+
+/* Register Page Start Here */
+.register-info-area {
+  margin: 0;
+  background-color: #5fe9e6;
+  color: #055b68;
+  padding: 25px;
+  border: 1px solid #17a7a4;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.registration-info-title {
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.registration-info-desc {
+  text-align: justify;
+  line-height: 1.8;
+  padding: 5px 5px;
+  font-weight: normal;
+}
+
+.registration-form-title {
+  color: #333;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 15px;
+  background-color: #5fe9e6;
+}
+.registration-info-desc span i {
+  font-size: 15px;
+  color: #1461a3;
+  margin-right: 10px;
+}
+/* Register Page End Here */
+
+/* Login Page Start Here */
+.login-form-title {
+  color: #333;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 25px;
+  background-color: #5fe9e6;
+}
+.login-form-area {
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+  padding: 52px;
+  border: 1px solid rgb(75, 74, 74);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.login-extra {
+  text-align: center;
+  padding-top: 20px;
+}
+.forget-password a,
+.new-register a {
+  text-decoration: none;
+  color: rgb(14, 99, 168);
+  text-align: 15px;
+}
+.forget-password {
+  padding: 5px;
+}
+/* Login Page End Here */
+
+/* Contact Page Start Here */
+.contact-area-main {
+  margin: 0 auto;
+  padding: 15px 32px;
+  border: 1px solid rgb(18, 168, 228);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contact-area-main .contact-title {
+  color: rgb(59, 59, 59);
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+#message {
+  min-height: 232px;
+}
+.send-message-text {
+  color: #333;
+  text-align: left;
+  font-size: 14px;
+}
+.contact-google-map iframe {
+  width: 100%;
+}
+/* Contact Page End Here */
+
+/* Apply for Appointment Page Start Here */
+.appointment-area-main {
+  padding: 32px;
+  border: 1px solid rgb(18, 168, 228);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.appointment-area-main-title {
+  color: #333;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 15px 0;
+  margin-bottom: 15px;
+  background-color: #5fe9e6;
+}
+.logged-in-user-info {
+  color: #333;
+  text-align: center;
+  font-size: 18px;
+  padding: 15px 5px;
+}
+.logged-in-message {
+  color: #333;
+  text-align: left;
+  font-size: 15px;
+  padding: 10px 10px;
+  background-color: rgb(236, 217, 133);
+  margin-bottom: 15px;
+}
+.appointment-success {
+  color: #333;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 10px;
+  margin-bottom: 15px;
+}
+/* Apply for Appointment Page End Here */
+
+/* Assistant Section Start Here */
+.assistant-area-menubutton {
+  margin-bottom: 10px;
+  text-align: left;
+}
+.assistant-area-search-patient {
+  margin-bottom: 10px;
+  text-align: right;
+}
+.assistant-area-database-title {
+  margin: 10px 0;
+  padding: 2px 0;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  background-color: #043a5e;
+} /* Assistant Section End Here */
+
+/* Doctor Area Start Here */
+.doctor-area-current-patient {
+  margin: 15px 0;
+  padding: 2px 0;
+  text-align: center;
+  font-size: 18px;
+  color: #043a5e;
+}
+/* Doctor Area End Here */

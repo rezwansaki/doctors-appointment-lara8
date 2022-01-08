@@ -37,12 +37,20 @@ class RegisteredUserController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'confirmed', Rules\Password::defaults()],
+            'gender' => 'required|string|max:255', // I added extra 
+            'birthdate' => 'required|string|max:255', // I added extra 
+            'address' => 'required|string|max:255', // I added extra 
+            'phone' => 'required|string|max:255', // I added extra 
         ]);
 
         $user = User::create([
             'name' => $request->name,
             'email' => $request->email,
             'password' => Hash::make($request->password),
+            'gender' => $request->gender, // I added extra 
+            'birthdate' => $request->birthdate, // I added extra 
+            'address' => $request->address, // I added extra 
+            'phone' => $request->phone, // I added extra 
         ])->assignRole(['User']); //assignRole method assign a role for the user and the role is 'User' 
 
         event(new Registered($user));
